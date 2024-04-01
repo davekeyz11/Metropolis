@@ -1,0 +1,35 @@
+div.project {
+  background-image: url("ASSETS/IMGS/background-img.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 700px;
+  height: 700px;
+  overflow: hidden;
+  margin-left: 300px;
+}
+
+@font-face {
+  font-family: Metro;
+  src: url("ASSETS/FONTS/MinecraftTen-VGORe.ttf");
+}
+
+h1.header1 {
+  font-size: 54px;
+  font-family: Metro;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subject-img {
+  padding-top: 50%;
+  animation-name: fly;
+  animation-duration: 4.5s;
+}
+
+@keyframes fly {
+  0% {
+  }
+  50% {
+    transform: translateX(700px);
+  }
+}
